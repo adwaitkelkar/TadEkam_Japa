@@ -1,6 +1,6 @@
 # Japa_onnx
 ### Instalation
-1. CLone the repo
+1. Clone the repo
 2. cd \scripts\whisper
 3. Download the onnx models from drive from [here](https://drive.google.com/drive/folders/1Hk2jWrIAoAxLEjEhP_8oQN3C6a5REeBf?usp=sharing).
 4. Post downloading the weights place all of them inside the whisper directory 
