@@ -1,7 +1,8 @@
-# TadEkam_Japa
---> **augmentation.py** file contains a augmentation pipeline which take a data frame (i.e. path of audio and labels) as input and returns augmentation audio files and and data frame which has path of augumented audio and labels.<br />
---> **Audios_used_as_augmentors** directory contains audio files which are used for augmentation.<br />
-<br />
-
-
-**!! The Original_dataset directory also contains japa.csv file which has the path and labels for the audio files.!!! **
+# Japa_onnx
+### Instalation
+1. CLone the repo
+2. cd \sherpa-onnx\scripts\whisper
+3. conda create -n japa python=3.8
+4. conda activate japa
+5. pip install -r requrements.txt
+6. python ./test.py --encoder ./medium-encoder.int8.onnx --decoder ./medium-decoder.int8.onnx --tokens ./medium-tokens.txt ./Gurumantra_.wav --language hi
